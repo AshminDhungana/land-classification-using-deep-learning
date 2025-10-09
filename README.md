@@ -34,7 +34,8 @@ land-classification-using-deep-learning/
 ├── data/ # Image datasets or download links    
 ├── notebooks/ # Jupyter notebooks for model development    
 ├── models/ # Saved model files (.keras, .pth)    
-├── reports/ # Evaluation results and summaries    
+├── reports/ # Evaluation results and summaries  
+├── scripts/ #Python scripts 
 ├── requirements.txt # Dependencies    
 └── README.md # Project overview    
 
@@ -45,3 +46,11 @@ git clone https://github.com/<your-username>/land-classification-using-deep-lear
 cd land-classification-using-deep-learning   
 pip install -r requirements.txt   
 jupyter notebook    
+
+## Run all Scripts
+
+To run all scripts all at once, which will take some time.  
+Run: ./scripts/run_all.py  
+
+Note: To generate a better model change the value of     
+n_epochs = 3 to (30 or more)    
