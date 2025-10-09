@@ -33,7 +33,7 @@ land-classification-using-deep-learning/
 │  
 ├── data/ # Image datasets or download links    
 ├── notebooks/ # Jupyter notebooks for model development    
-├── models/ # Saved model files (.h5, .pth)    
+├── models/ # Saved model files (.keras, .pth)    
 ├── reports/ # Evaluation results and summaries    
 ├── requirements.txt # Dependencies    
 └── README.md # Project overview    
